@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BitSpace - Login</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:#0b0f1a;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      color:white;
+    }
+
+    .container{
+      width:400px;
+      background:#151b2d;
+      padding:40px;
+      border-radius:24px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    h1{
+      text-align:center;
+      margin-bottom:30px;
+      color:#6d5dfc;
+    }
+
+    .input-box{
+      margin-bottom:20px;
+    }
+
+    .input-box label{
+      display:block;
+      margin-bottom:8px;
+    }
+
+    .input-box input{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:12px;
+      background:#0b0f1a;
+      color:white;
+    }
+
+    .btn{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:12px;
+      background:#6d5dfc;
+      color:white;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#5847ff;
+    }
+
+    .bottom{
+      margin-top:20px;
+      text-align:center;
+    }
+
+    .bottom a{
+      color:#6d5dfc;
+      text-decoration:none;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Login</h1>
+
+  <form>
+
+    <div class="input-box">
+      <label>Email</label>
+      <input type="email" placeholder="Inserisci la tua email">
+    </div>
+
+    <div class="input-box">
+      <label>Password</label>
+      <input type="password" placeholder="Inserisci la password">
+    </div>
+
+    <button class="btn">Accedi</button>
+
+  </form>
+
+  <div class="bottom">
+    Non hai un account?
+    <a href="register.html">Registrati</a>
+  </div>
+
+</div>
+
+</body>
+</html>
